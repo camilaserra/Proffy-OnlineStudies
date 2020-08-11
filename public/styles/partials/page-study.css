@@ -141,6 +141,14 @@
     background-color: var(--color-secondary-dark);
 }
 
+/*Nenhum professor encontrado pra a sua pesquisa*/
+#page-study main .no-results {
+    max-width: 300px;
+    margin: 12rem auto;
+    text-align: center;
+}
+
+
 /*adapatar a tela para desktop*/
 
 @media (min-width: 700px) {

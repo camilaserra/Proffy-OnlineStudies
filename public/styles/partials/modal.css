@@ -1,0 +1,32 @@
+#modal {
+    background-color: #0E0A14ef;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+#modal.point {
+    display: none;
+}
+
+#modal.point .content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#modal h1 {
+    color: white;
+}
+
+
+

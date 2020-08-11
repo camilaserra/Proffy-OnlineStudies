@@ -9,7 +9,8 @@
    <link rel="stylesheet" href="/styles/main.css"> 
    <link rel="stylesheet" href="/styles/partials/header.css"> 
    <link rel="stylesheet" href="/styles/partials/forms.css"> 
-   <link rel="stylesheet" href="/styles/partials/page-give-classes.css"> 
+   <link rel="stylesheet" href="/styles/partials/page-give-classes.css">
+   <link rel="stylesheet" href="/styles/partials/modal.css">  
 
 
    <link  href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -36,7 +37,7 @@
         </header>
 
         <main>
-            <form action="" id="create-class">
+            <form action="/save-classes" id="create-class" method="POST">
                 <fieldset>
                     <legend>Seus dados</legend>
 
@@ -117,6 +118,9 @@
                 </fieldset>
             </form>
 
+            {% if saved%}}
+                {%include "partials/point-created.html"%}
+            {% endif %}
 
 
             <Footer>
@@ -129,11 +133,16 @@
 
             </Footer>
 
-
-
-
         </main>
     </div>
+
+
+                <div id="modal" class="point">
+                        <div class="content">
+                            <img src="images/icons/success-check-icon.svg" alt="Cadastro concluído">
+                            <h1>Cadastro concluído</h1>
+                        </div>
+                    </div>
 
 
 </body>
