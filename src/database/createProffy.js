@@ -52,8 +52,4 @@ const insertedAllClassesScheduleValues = classScheduleValues.map((classScheduleV
   })
 
   //await Promise.all(insertedAllClassesScheduleValues)
-
-
-
-
 }

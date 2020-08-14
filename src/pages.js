@@ -87,19 +87,7 @@ async function saveClasses(req, res) {
     console.log(error)
   }
 
-
-  
-  function afterInsertData(err) {
-    if (err) {
-      return console.log(this)
-
-      return res.render("page-study.html", {saved: true})
-    }
-
-  }
-
-
-  
+ 
 } 
 
 module.exports = {

@@ -10,7 +10,7 @@
    <link rel="stylesheet" href="/styles/partials/header.css"> 
    <link rel="stylesheet" href="/styles/partials/forms.css"> 
    <link rel="stylesheet" href="/styles/partials/page-give-classes.css">
-   <link rel="stylesheet" href="/styles/partials/modal.css">  
+     
 
 
    <link  href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
@@ -95,6 +95,8 @@
                             <label form="weekday">Dia da Semana</label>
                             <select name="weekday[]" required>                       
                                 <option value="">Selecione uma opção</option>
+                                   
+                                   
                                     {%for weekday in weekdays%}
                                         <option value="{{loop.index0}}">
                                             {{weekday}}
@@ -118,10 +120,6 @@
                 </fieldset>
             </form>
 
-            {% if saved%}}
-                {%include "partials/point-created.html"%}
-            {% endif %}
-
 
             <Footer>
             <p>
@@ -137,13 +135,5 @@
     </div>
 
 
-                <div id="modal" class="point">
-                        <div class="content">
-                            <img src="images/icons/success-check-icon.svg" alt="Cadastro concluído">
-                            <h1>Cadastro concluído</h1>
-                        </div>
-                    </div>
-
-
-</body>
+    </body>
 </html>
