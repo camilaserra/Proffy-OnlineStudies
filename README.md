@@ -7,7 +7,7 @@
 
 <h3>
 
-Projeto Open Source desenvolvido na #NextLevelWeek #2.0 da [Rocketseat], utilizando:
+Projeto Open Source desenvolvido na #NextLevelWeek-2.0 da [Rocketseat], utilizando:
 
 - HTML
 - CSS
@@ -18,37 +18,35 @@ Projeto Open Source desenvolvido na #NextLevelWeek #2.0 da [Rocketseat], utiliza
 
 ## **:rocket: OBJETIVO**
 
-O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conectar alunos e professores para realizarem aulas online.
+O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conectar alunos e professores para realizarem aulas online. A proposta foi adaptada para o idioma inglês, como forma de habituação e boas praticas de desenvolvimento.
 
-## **:wrench: CONFIGURAÇÃO DO AMBIENTE**
-
+## **:wrench: COMO CONFIGURAR O AMBIENTE?**
   
 ```bash
 
-# Clonar o repositório
+# 1º Passo: Clone o repositório
 
 git clone https://github.com/camilaserra/Proffy-OnlineStudies/tree/master
 
-# Entrar no diretório
+# 2º Passo: Entrer no diretório
 
 cd Proffy-OnlineStudies
 
- 
-# Baixar as dependências
+# 3º Passo: Instale as dependências
 
-npm i
+npm install 
 
-# Executar o servidor
+# 4º Passo: Execute o servidor
 
 npm run dev
 
 ```
 
-Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+Agora, abra o seu navegador e acesse `http://localhost:5500/`
 
+Prontinho! :)
 
-
-## **:star2: AGRADECIMENTOS**
+## **:star2: GRATIDÃO!**
 
 
 
