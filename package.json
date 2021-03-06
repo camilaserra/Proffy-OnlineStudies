@@ -1,7 +1,7 @@
 {
   "name": "nlw2",
   "version": "1.0.0",
-  "description": "",
+  "description": "<div>\r  <div align=center>",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/camilaserra/Proffy-OnlineStudies#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "node": "^15.10.0",
     "nunjucks": "^3.2.2",
     "sqlite-async": "^1.1.0"
   },
